@@ -26,10 +26,18 @@
 \newcommand*{\htmltextcol}[1]{{\color{blue} #1}}
 \newcommand{\github}{\textcolor{rgb:red,110;green,84;blue,148}{\faGithubSquare}}
 \newcommand{\linkedin}{\textcolor{rgb:red,6;green,108;blue,170}{\faLinkedinSquare}}
-% \newcommand{\name}[1]{\begin{center}\section*{\LARGE \color{highlight} #1}\vspace{-0.8cm}\end{center}}
-% \newcommand{\topinfo}[1]{\begin{center}\vspace{-0.1cm}#1\vspace{-0.3cm}\end{center}}
 \newcommand{\name}[1]{\begin{flushright}\section*{\LARGE \color{highlight} #1}\vspace{-0.8cm}\end{flushright}}
 \newcommand{\topinfo}[1]{\begin{flushright}\vspace{-0.1cm}#1\vspace{-0.3cm}\end{flushright}}
 \newcommand{\resumesection}[1]{\vspace{-0.5cm}\section*{\color{highlight}#1}\vspace{-0.2cm}\hrule\vspace{0.2cm}}
+
+\newcommand{\hexclipper}[3]{%\hexclipper{<size of hexgon>}{<width of image>}{<image file>}
+  \begin{tikzpicture}[baseline=(current bounding box.north)] 
+    \foreach \ang in {60,120,...,360}{
+     \coordinate (\ang) at  (\ang:#1) ;}
+     \draw[line width=2pt,black] (60) -- (120) -- (180) -- (240) -- (300) -- (360) -- cycle;
+     \clip (60) -- (120) -- (180) -- (240) -- (300) -- (360) -- cycle;
+     \node{\includegraphics[width=#2]{{#3}}};
+  \end{tikzpicture}
+}
 
 \renewcommand{\familydefault}{\sfdefault}

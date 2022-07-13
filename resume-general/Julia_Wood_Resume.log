@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.8)  13 JUL 2022 17:00
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.8)  13 JUL 2022 19:50
  restricted system commands enabled.
 **Julia_Wood_Resume.tex
 (./Julia_Wood_Resume.tex
@@ -974,21 +974,21 @@ fBuzz].
 
 (../components/../components/background.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 3.
 <../components/../components//headshot.jpg, id=6, 1969.3575pt x 2167.09625pt>
 File: ../components/../components//headshot.jpg Graphic file (type jpg)
 <use ../components/../components//headshot.jpg>
 Package luatex.def Info: ../components/../components//headshot.jpg  used on inp
-ut line 33.
+ut line 11.
 (luatex.def)             Requested size: 113.81102pt x 125.22542pt.
 )
 (../components/../components/statement.tex
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 2.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 4.
 )
 (../components/../components/skills.tex)
 (../components/projects/dataprojects.tex) (../components/education/uq.tex
@@ -998,31 +998,31 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
 ../components//headshot.jpg>]
 (../components/education/../publications/selected_pubs.tex))
 (../components/education/sccs.tex) (../components/education/griffith.tex)
-(../components/experiences/inline.tex [2])
-(../components/experiences/alphapharm.tex)
+(../components/experiences/inline.tex)
+(../components/experiences/alphapharm.tex [2])
 (../components/../components/referees.tex) [3] (./Julia_Wood_Resume.aux)
 Package rerunfilecheck Info: File `Julia_Wood_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29349 strings out of 477785
+ 29411 strings out of 477785
  100000,953878 words of node,token memory allocated
  497 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 3 glue, 4 kern, 4 glyph, 8 attribute, 54 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:686,3:460,4:113,5:403,6:113,7:8515,8:29,9:788,10:11,11:715
+   avail lists: 1:1,2:831,3:534,4:119,5:441,6:121,7:9245,8:29,9:845,10:11,11:740
 
- 49015 multiletter control sequences out of 65536+600000
- 42 fonts using 10849319 bytes
- 115i,16n,111p,511b,856s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 49077 multiletter control sequences out of 65536+600000
+ 44 fonts using 11112695 bytes
+ 115i,16n,111p,511b,843s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/julia/appdata/local/programs/miktex/fonts/opentype/public/lm/lmsan
 s12-oblique.otf><C:/Users/julia/AppData/Local/Programs/MiKTeX/fonts/opentype/pub
 lic/fontawesome/FontAwesome.otf><//?/c:/users/julia/appdata/local/programs/mikte
 x/fonts/opentype/public/lm/lmsans12-regular.otf><//?/c:/users/julia/appdata/loca
 l/programs/miktex/fonts/opentype/public/lm/lmsans10-bold.otf><C:/Users/julia/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Julia_Wood_Resume.pdf (3 pages, 840541 bytes).
+Output written on Julia_Wood_Resume.pdf (3 pages, 840334 bytes).
 
 PDF statistics: 69 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 131072)
