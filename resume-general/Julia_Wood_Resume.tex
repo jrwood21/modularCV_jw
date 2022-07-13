@@ -1,0 +1,37 @@
+\documentclass[hidelinks, 12pt]{article}
+
+\usepackage{../components/commonheader}
+
+\begin{document}
+
+\subimport{../components/}{background.tex}
+
+\vspace{1mm}
+\subimport{../components/}{statement.tex}
+
+\vspace{1mm}
+\resumesection{Technical Skills}
+\subimport{../components/}{skills.tex}
+
+\vspace{1mm}
+\resumesection{Data \& Programming Projects}
+\subimport{../components/projects/}{dataprojects.tex}
+
+\resumesection{Education}
+\subimport{../components/education}{uq.tex}
+\vspace{3mm}
+\subimport{../components/education}{sccs.tex}
+\vspace{3mm}
+\subimport{../components/education}{griffith.tex}
+
+\vspace{1mm}
+\resumesection{Employment}
+\subimport{../components/experiences/}{inline.tex}
+\vspace{3mm}
+\subimport{../components/experiences/}{alphapharm.tex}
+
+\vspace{1mm}
+\resumesection{Referees}
+\subimport{../components/}{referees.tex}
+
+\end{document}
