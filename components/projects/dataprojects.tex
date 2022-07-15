@@ -1,20 +1,38 @@
-\begin{table}[!h]
-	\centering\begingroup\fontsize{12}{12}\selectfont
-	
-	\begin{tabular}{>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{3.3cm}>{\raggedright\arraybackslash}p{9cm}}
-	
+\begin{longtable}{>{\raggedright\arraybackslash}p{5.5cm} >{\raggedright\arraybackslash}p{3.3cm} p{9cm}}	
 	\textbf{Project} & \textbf{Packages} & \textbf{Objective}\\
 	\midrule
-	Power spectral density analysis of electroencephalography (EEG) data in Python & NumPy, pandas, MNE-Python, os, matplotlib & I am investigating changes in the power spectral density of EEG data over time in my PhD studies.\\
+	\endhead
+	Non-invasive brain stimulation (NIBS): effect on electroence- phalography (EEG) power 
+	& NumPy, pandas, MNE-Python, os, matplotlib 
+	& Estimate treatment effects on the power spectral density of time series (EEG) data over time, compared to placebo.\\
 	\addlinespace
-	Generalised linear mixed models in R & tidyverse (dplyr, tidyr \& ggplot2), lme4, gamlss, broom.mixed & I am using generalised linear mixed models to investigate changes in data from a variety of distributions over time in my PhD studies.\\
+	NIBS: effects on perception \& learning over time 
+	& tidyverse (dplyr, tidyr \& ggplot2), lme4, MASS, nnet, broom.mixed, lmtest, boot
+	& Estimate treatment effects on a variety of response variables (proportions, counts, response times, time of day, ordinal survey responses) 
+	from different distributions (Gaussian, Poisson, inverse Gaussian, von Mises, ordinal logistic) over time, relative to placebo, 
+	using linear and generalised linear models. Where applicable, obtain estimates and their confidence intervals on the natural scale via non-parametric bootstrapping. \\
 	\addlinespace
-	Interactive behavioural tasks in Python & PsychoPy, NumPy, pandas, os & I have coded interactive tasks for behavioural experiments in my PhD studies (associative word learning and sequential finger tapping tasks).\\
+	NIBS: effects on motor-evoked potential (MEP) size \& variability over time
+	& tidyverse, gamlss, boot 
+	& Estimate treatment effects on the mean and within-individual variability of lognormal data (MEP peak-to-peak amplitude) over time, relative to placebo, 
+	using a joint model for location \& scale.\\
 	\addlinespace
-	Data simulation study in R & tidyverse (dplyr, tidyr \& ggplot2), lme4, gamlss, broom.mixed & I am simulating realistic lognormal experimental data, based on exploratory and descriptive analysis of a public motor-evoked potential (MEP) dataset. I am using these simulated data to compare the ability of various linear models to estimate changes in the within-individual variability of lognormal data over time.\\
+	NIBS: effects on MEP size \& variability over time - model validation 
+	& tidyverse, lme4, gamlss, simMetric, broom.mixed, boot 
+	& Simulate realistic lognormal experimental data based on exploratory and descriptive analysis of a public dataset. 
+	Using these data, validate a joint model to compare changes in the mean and within-individual variability of lognormal data between treatment groups over time.\\
 	\addlinespace
-	Interactive visualisation of powerlifting data in a shiny (R) web application & shiny, tidyverse (dplyr, tidyr \& ggplot2) & I am developing a shiny (R) app to interactively visualise international powerlifting competition results, using open-source data.\\
-	
-	\end{tabular}
-	\endgroup{}
-\end{table}
+	NIBS: effect on rate of change of MEP size over time
+	& tidyverse, nlme, boot 
+	& Estimate the treatment effect on the rate that a response variable (MEP peak-to-peak amplitude) increases over time towards a maximal plateau, 
+	relative to placebo, using a non-linear, one phase exponential association model. \\
+	\addlinespace
+	Development of interactive learning tasks
+	& PsychoPy, NumPy, pandas, os 
+	& Execute interactive behavioural learning tasks (associative word learning, sequential finger tapping) that present stimuli to participants and record responses (voice recordings, key presses). 
+	This code is available on my \htmltextcol{\href{https://github.com/jrwood21/sleep_tacs_study_jw_gh}{GitHub}}.\\
+	\addlinespace
+	Shiny web application development
+	& tidyverse, Shiny 
+	& Create a Shiny (R) app to interactively visualise international powerlifting competition results, using open-source data.\\
+\end{longtable}
