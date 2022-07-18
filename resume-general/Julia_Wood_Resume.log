@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.8)  15 JUL 2022 17:48
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.7.8)  18 JUL 2022 09:55
  restricted system commands enabled.
 **Julia_Wood_Resume.tex
 (./Julia_Wood_Resume.tex
@@ -1039,7 +1039,7 @@ Here is how much of LuaTeX's memory you used:
  517 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 3 glue, 4 kern, 4 glyph, 8 attribute, 58 glue_spec,
  8 attribute_list, 2 write nodes
-   avail lists: 1:1,2:809,3:524,4:109,5:464,6:103,7:9654,8:30,9:845,10:15,11:739
+   avail lists: 1:1,2:809,3:524,4:109,5:464,6:103,7:9675,8:30,9:845,10:15,11:739
 
  49169 multiletter control sequences out of 65536+600000
  43 fonts using 10981007 bytes
@@ -1050,7 +1050,7 @@ lic/fontawesome/FontAwesome.otf><//?/c:/users/julia/appdata/local/programs/mikte
 x/fonts/opentype/public/lm/lmsans12-regular.otf><//?/c:/users/julia/appdata/loca
 l/programs/miktex/fonts/opentype/public/lm/lmsans10-bold.otf><C:/Users/julia/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Julia_Wood_Resume.pdf (3 pages, 842126 bytes).
+Output written on Julia_Wood_Resume.pdf (3 pages, 842144 bytes).
 
 PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
