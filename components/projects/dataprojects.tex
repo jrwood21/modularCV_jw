@@ -2,34 +2,34 @@
 	\textbf{Project} & \textbf{Packages} & \textbf{Objective}\\
 	\midrule
 	\endhead
-	Non-invasive brain stimulation (NIBS): effect on electroence- phalography (EEG) power 
+	Brain stimulation: effect on electroencephalography (EEG) power 
 	& NumPy, pandas, MNE-Python, os, matplotlib 
 	& Estimate treatment effects on the power spectral density of time series (EEG) data over time, compared to placebo.\\
 	\addlinespace
-	NIBS: effects on perception \& learning over time 
+	Brain stimulation: effects on perception \& learning over time 
 	& tidyverse (dplyr, tidyr \& ggplot2), lme4, MASS, nnet, broom.mixed, lmtest, boot
 	& Estimate treatment effects on a variety of response variables (proportions, counts, response times, time of day, ordinal survey responses) 
 	from different distributions (Gaussian, Poisson, inverse Gaussian, von Mises, ordinal logistic) over time, relative to placebo, 
 	using linear and generalised linear models. Where applicable, obtain estimates and their confidence intervals on the natural scale via non-parametric bootstrapping. \\
 	\addlinespace
-	NIBS: effects on motor-evoked potential (MEP) size \& variability over time
+	Brain stimulation: effects on motor-evoked potential (MEP) size \& variability over time
 	& tidyverse, gamlss, boot 
 	& Estimate treatment effects on the mean and within-individual variability of lognormal data (MEP peak-to-peak amplitude) over time, relative to placebo, 
 	using a joint model for location \& scale.\\
 	\addlinespace
-	NIBS: effects on MEP size \& variability over time - model validation 
+	Brain stimulation: effects on MEP size \& variability over time - model validation 
 	& tidyverse, lme4, gamlss, simMetric, broom.mixed, boot 
 	& Simulate realistic lognormal experimental data based on exploratory and descriptive analysis of a public dataset. 
 	Using these data, evaluate the performance of competing statistical models to compare changes in the mean and within-individual variability of lognormal data between treatment groups over time.\\
 	\addlinespace
-	NIBS: effect on rate of change of MEP size over time
+	Brain stimulation: effect on rate of change of MEP size over time
 	& tidyverse, nlme, boot 
-	& Estimate the treatment effect on the rate that a response variable (MEP peak-to-peak amplitude) increases over time towards a maximal plateau, 
+	& Estimate treatment effects on the rate that a response variable (MEP peak-to-peak amplitude) increases over time towards a maximal plateau, 
 	relative to placebo, using a non-linear, one phase exponential association model. \\
 	\addlinespace
 	Development of interactive learning tasks
 	& PsychoPy, NumPy, pandas, os 
-	& Develop interactive learning tasks (associative word learning, sequential finger tapping) that present stimuli to participants and record responses (voice recordings, key presses) to assess cognitive and motor learning. 
+	& Execute interactive learning tasks (associative word learning, sequential finger tapping) that present stimuli to participants and record responses (voice recordings, key presses) to assess cognitive and motor learning. 
 	This code is available on my \htmltextcol{\href{https://github.com/jrwood21/sleep_tacs_study_jw_gh}{GitHub}}.\\
 	\addlinespace
 	Shiny web application development
